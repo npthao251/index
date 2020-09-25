@@ -1,0 +1,263 @@
+﻿/* CSS Document */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.container-fluid{
+	width: 100%; 
+	background-color: #5E5B5B
+}
+.container{
+	width: 1110px; 
+	margin: 0 auto;
+}
+
+.logo{
+	width: 100%; 
+	height: 120px; 
+	background-color: #B8B5B5;
+}
+
+.logo img{
+	margin-top: 20px;
+}
+
+.menubar{
+	height: 62px; 
+	width: 100%; 
+	background-color: #B8B5B5; 
+	border-top: 1px solid #5F5E5E; 
+}
+.menubar > .container{
+	margin: 0 34%;
+}
+.menubar ul{
+	list-style: none;
+	margin: 0
+}
+.menubar ul li{
+	padding: 20px;
+	float: left; 
+	position: relative;
+}
+.menubar ul li a{
+	text-decoration: none; 
+	font-family: Arial, "sans-serif"; 
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #333;
+}
+.menubar ul li:hover{
+	background-color: #CCC7C7; 
+	height: 10px;
+}
+.menubar ul li ul{
+	position: absolute; 
+	top: 40px; 
+	left: 0; 
+	visibility: hidden; 
+	background-color:#B8B5B5; 
+	padding: 0; 
+	margin: 0
+}
+.menubar ul li ul li{
+	width: 128px; 
+	height: 10px;
+}
+.menubar ul li:hover ul{
+	visibility: visible;
+	z-index: 100;
+}
+
+.grow:hover{
+ 	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.maincontent{
+	width: 100%;
+	height: 600px;
+	text-align: center; 
+	line-height: 40px;
+	background: url("../images/Zara-mens-spring-2020-ad-campaign-the-impression-025-scaled.jpg") no-repeat top center/cover;
+	position: relative;
+}
+ .maincontent .nam{
+	 top: 180px; 
+	 right: 1300px; 
+	 position: absolute;
+}
+.maincontent .nu{
+	 top: 180px; 
+	 left: 1300px; 
+	 position: absolute;
+}
+
+.maincontent button{ 
+	width: 200px; 
+	height: 60px;
+	font-family: Arial, "sans-serif"; 
+	color: #333; 
+	background-color: darkgray;
+	background: transparent;
+	border: 1px solid #333;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.contents .title{
+	text-align: center; 
+	font-family: Arial; 
+	font-size: 20px; 
+	text-transform: uppercase;
+	background-color: #929191;
+}
+
+.contents{
+	width: 100%; 
+	height: 400px; 
+	background-color: #929191; 
+	text-align: center; 
+	line-height: 40px;
+	padding: 10px;
+}
+
+.content{
+	display: flex; 
+	justify-content: space-between
+}
+
+.content_item{
+	width: 20%; 
+	height: 220px; 
+	background-color:#DBD8D8;
+	float: left; 
+	margin: 2.5% 1% 0% 1%; 
+	position: relative
+}
+
+.content_name{
+	width: 100%; 
+	height: 40px; 
+	background-color:#DBD8D8;
+	float: left;  
+	position: absolute;
+	font-family: Arial, "sans-serif"; 
+	color: #333; 
+	}
+
+.products .title{
+	text-align: center; 
+	font-family: Arial; 
+	font-size: 20px; 
+	background-color:#DBD8D8;
+	text-transform: uppercase;
+}
+
+.products{
+	width: 100%; 
+	height: 400px; 
+	background-color:#DBD8D8; 
+	text-align: center; 
+	line-height: 40px; 
+	padding: 10px;
+}
+
+.product{
+	display: flex; 
+	justify-content: center
+}
+
+.product_item{
+	width: 15%; 
+	height: 220px; 
+	background-color:#DBD8D8;
+	float: left; 
+	margin: 2.5% 1% 0% 1%; 
+	position: relative
+}
+
+.product_name{
+	width: 100%; 
+	height: 40px; 
+	background-color:#939191;
+	float: left;  
+	position: absolute;
+	font-family: Arial, "sans-serif"; 
+	color:#333; 
+	}
+
+
+
+.findmore {
+	width: 100%; 
+	height: 400px; 
+	text-align: center; 
+	line-height: 40px; 
+	position: relative;
+	background: url("../images/Zara-mens-spring-2020-ad-campaign-the-impression-012-scaled.jpg")no-repeat top center/cover;
+	font-family: Arial, "sans-serif"; 
+	color: #333;
+}
+
+.findmore p{
+	position: absolute; 
+	font-family: Arial, "sans-serif"; 
+	text-transform: uppercase;
+	top: 170px; 
+	left: 1290px;
+}
+
+.findmore button{
+	position: absolute; 
+	top: 220px; 
+	left: 1380px
+}
+
+.findmore button{ 
+	width: 100px; 
+	height: 30px;
+	font-family: Arial, "sans-serif"; 
+	color: #333; 
+	background-color: darkgray;
+	background: transparent;
+	border: 1px solid #333;
+	text-transform: uppercase;
+}
+.contact{
+	width: 100%; 
+	height: 250px; 
+	background-color: #B8B5B5;
+	text-transform: uppercase;
+	font-family: Arial, "sans-serif"; 
+	padding: 0 300px;
+}
+.contact .box{
+	padding: 40px 20px;
+	width: 33%;
+	float: left;
+	
+}
+.box p{
+	font-size: 1.125rem;
+	font-weight: 600;
+	
+	
+}
+.box ul{
+	margin: 0 0 0 0;
+	list-style: none;
+	
+}
+.box ul li{
+	margin-top: 20px;
+}
+
+.right p{
+	margin-bottom: 20px;
+}
+
+
+
+
+
